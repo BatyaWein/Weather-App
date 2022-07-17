@@ -26,6 +26,7 @@ export class FavoriteStore {
         const response: Favorite = await this._apiClient.addToFavorite(newFavorite);
         runInAction(() => {
             this._favorites.push(response);
+            this._favoriteAmount=this._favoriteAmount+1;
         })
     }
 

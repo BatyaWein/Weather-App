@@ -45,7 +45,9 @@ namespace WeatherProjectAPI.DL
             }
             catch(Exception e)
             {
+                //logs
                 Console.WriteLine(e);
+                //throw the current exeption
             }
             return usersList;
         }
@@ -65,7 +67,9 @@ namespace WeatherProjectAPI.DL
             }
             catch (Exception e)
             {
+                //logs
                 Console.WriteLine(e);
+                //throw the current exeption
             }
             return favorite;
         }

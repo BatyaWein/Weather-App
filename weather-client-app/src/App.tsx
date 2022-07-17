@@ -9,11 +9,8 @@ import {
   Routes
 } from "react-router-dom";
 import { Header } from './component/header';
-import { useWeatherStore } from "./stores/use-weather-store";
 
 function App() {
-
-  const { routerStore } = useWeatherStore();
 
   return (
     <div className="App">

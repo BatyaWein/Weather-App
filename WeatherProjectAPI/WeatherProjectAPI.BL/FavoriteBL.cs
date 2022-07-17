@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
 using AutoMapper;
+using Microsoft.Extensions.Logging;
 using WeatherProjectAPI.DL;
 using WeatherProjectAPI.DTO;
 using WeatherProjectAPI.Entities;
@@ -14,12 +15,14 @@ namespace WeatherProjectAPI.BL
 {
     public class FavoriteBL : IFavoriteBL
     {
-        IFavoriteDL _favoriteDL;
+        private readonly IFavoriteDL _favoriteDL;
+        private readonly ILogger<FavoriteBL> _logger;
         private readonly IMapper _mapper;
-        public FavoriteBL(IFavoriteDL favoriteDL, IMapper mapper)
+        public FavoriteBL(IFavoriteDL favoriteDL, IMapper mapper, ILogger<FavoriteBL> logger)
         {
             _favoriteDL = favoriteDL;
             _mapper = mapper;
+            _logger = logger;
         }
 
 
@@ -29,8 +32,9 @@ namespace WeatherProjectAPI.BL
             newFavorite=await _favoriteDL.AddToFavorite(newFavorite);
             if (newFavorite == null)
             {
-                //logs
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+                _logger.LogWarning($"Add cityCode: {favorite.CityCode} to favorite for user: {favorite.UserId} is already exist");
+
+                throw new HttpResponseException(HttpStatusCode.Conflict);
             }
             DTO_Favorite dtoFavorite = _mapper.Map<Favorite, DTO_Favorite>(newFavorite);
             return dtoFavorite;

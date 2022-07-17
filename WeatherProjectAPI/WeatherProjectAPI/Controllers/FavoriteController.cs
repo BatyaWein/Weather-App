@@ -8,6 +8,8 @@ using WeatherProjectAPI.DTO;
 
 namespace WeatherAPI.Controllers
 {
+    //TO DO
+    //Return correct and accurate statuses
     [Route("api/[controller]")]
     [ApiController]
     public class FavoriteController : ControllerBase
@@ -24,6 +26,7 @@ namespace WeatherAPI.Controllers
         [HttpPost]
         public Task<DTO_Favorite> AddToFavorite([FromBody] DTO_Favorite favorite)
         {
+            _logger.LogInformation($"Add cityCode: {favorite.CityCode} to favorite for user: {favorite.UserId} ");
             return _favoriteBL.AddToFavorite(favorite);
         }
 
@@ -31,6 +34,7 @@ namespace WeatherAPI.Controllers
         [HttpGet]
         public Task<int> GetFavoriteAmount(Guid userId)
         {
+            _logger.LogInformation($"Get favorite amount for user: {userId} ");
             return _favoriteBL.GetFavoriteAmount(userId);
         }
     }
