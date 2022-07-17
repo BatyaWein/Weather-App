@@ -1,0 +1,9 @@
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.Entities\bin\Debug\netcoreapp3.1\WeatherProjectAPI.Entities.deps.json
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.Entities\bin\Debug\netcoreapp3.1\WeatherProjectAPI.Entities.dll
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.Entities\bin\Debug\netcoreapp3.1\WeatherProjectAPI.Entities.pdb
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.Entities\obj\Debug\netcoreapp3.1\WeatherProjectAPI.Entities.AssemblyInfoInputs.cache
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.Entities\obj\Debug\netcoreapp3.1\WeatherProjectAPI.Entities.AssemblyInfo.cs
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.Entities\obj\Debug\netcoreapp3.1\WeatherProjectAPI.Entities.csproj.CoreCompileInputs.cache
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.Entities\obj\Debug\netcoreapp3.1\WeatherProjectAPI.Entities.dll
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.Entities\obj\Debug\netcoreapp3.1\WeatherProjectAPI.Entities.pdb
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.Entities\obj\Debug\netcoreapp3.1\WeatherProjectAPI.Entities.csprojAssemblyReference.cache

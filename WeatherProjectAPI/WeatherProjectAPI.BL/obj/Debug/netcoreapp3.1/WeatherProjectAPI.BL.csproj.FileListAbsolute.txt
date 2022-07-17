@@ -1,0 +1,16 @@
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\bin\Debug\netcoreapp3.1\WeatherProjectAPI.BL.deps.json
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\bin\Debug\netcoreapp3.1\WeatherProjectAPI.BL.dll
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\bin\Debug\netcoreapp3.1\WeatherProjectAPI.BL.pdb
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\bin\Debug\netcoreapp3.1\WeatherProjectAPI.DL.dll
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\bin\Debug\netcoreapp3.1\WeatherProjectAPI.DTO.dll
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\bin\Debug\netcoreapp3.1\WeatherProjectAPI.Entities.dll
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\bin\Debug\netcoreapp3.1\WeatherProjectAPI.DL.pdb
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\bin\Debug\netcoreapp3.1\WeatherProjectAPI.DTO.pdb
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\bin\Debug\netcoreapp3.1\WeatherProjectAPI.Entities.pdb
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\obj\Debug\netcoreapp3.1\WeatherProjectAPI.BL.AssemblyInfoInputs.cache
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\obj\Debug\netcoreapp3.1\WeatherProjectAPI.BL.AssemblyInfo.cs
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\obj\Debug\netcoreapp3.1\WeatherProjectAPI.BL.csproj.CopyComplete
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\obj\Debug\netcoreapp3.1\WeatherProjectAPI.BL.dll
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\obj\Debug\netcoreapp3.1\WeatherProjectAPI.BL.pdb
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\obj\Debug\netcoreapp3.1\WeatherProjectAPI.BL.csprojAssemblyReference.cache
+C:\Batya\City Book Test\WeatherProjectAPI\WeatherProjectAPI.BL\obj\Debug\netcoreapp3.1\WeatherProjectAPI.BL.csproj.CoreCompileInputs.cache

@@ -1,0 +1,265 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.BL\\WeatherProjectAPI.BL.csproj": {}
+  },
+  "projects": {
+    "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.BL\\WeatherProjectAPI.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.BL\\WeatherProjectAPI.BL.csproj",
+        "projectName": "WeatherProjectAPI.BL",
+        "projectPath": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.BL\\WeatherProjectAPI.BL.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://myget.org/F/aspnetwebstacknightly": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.DL\\WeatherProjectAPI.DL.csproj": {
+                "projectPath": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.DL\\WeatherProjectAPI.DL.csproj"
+              },
+              "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.DTO\\WeatherProjectAPI.DTO.csproj": {
+                "projectPath": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.DTO\\WeatherProjectAPI.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.DL\\WeatherProjectAPI.DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.DL\\WeatherProjectAPI.DL.csproj",
+        "projectName": "WeatherProjectAPI.DL",
+        "projectPath": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.DL\\WeatherProjectAPI.DL.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.DL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://myget.org/F/aspnetwebstacknightly": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.Entities\\WeatherProjectAPI.Entities.csproj": {
+                "projectPath": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.Entities\\WeatherProjectAPI.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.DTO\\WeatherProjectAPI.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.DTO\\WeatherProjectAPI.DTO.csproj",
+        "projectName": "WeatherProjectAPI.DTO",
+        "projectPath": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.DTO\\WeatherProjectAPI.DTO.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://myget.org/F/aspnetwebstacknightly": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.Entities\\WeatherProjectAPI.Entities.csproj": {
+                "projectPath": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.Entities\\WeatherProjectAPI.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.Entities\\WeatherProjectAPI.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.Entities\\WeatherProjectAPI.Entities.csproj",
+        "projectName": "WeatherProjectAPI.Entities",
+        "projectPath": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.Entities\\WeatherProjectAPI.Entities.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Batya\\City Book Test\\WeatherProjectAPI\\WeatherProjectAPI.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://myget.org/F/aspnetwebstacknightly": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
