@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Cors;
 
 namespace WeatherAPI.Controllers
 {
+    //TO DO
+    //Return correct and accurate statuses
     [Route("api/[controller]")]
     [ApiController]
     public class WeatherController : ControllerBase
@@ -27,6 +29,7 @@ namespace WeatherAPI.Controllers
         [HttpGet("SearchLocation")]
         public IActionResult SearchLocation([FromQuery(Name = "q")] string query)
         {
+            _logger.LogInformation($"SearchLocation with query: {query}");
             IRestResponse response = _weatherBL.SearchLocation(query);
             return StatusCode((int)response.StatusCode, response.Content);
         }
@@ -34,6 +37,7 @@ namespace WeatherAPI.Controllers
         [HttpGet("{countryCode}")]
         public IActionResult GetWeather(string countryCode)
         {
+            _logger.LogInformation($"Get weather to countryCode: {countryCode}");
             IRestResponse response = _weatherBL.GetWeather(countryCode);
             return StatusCode((int)response.StatusCode, response.Content); ;
         }

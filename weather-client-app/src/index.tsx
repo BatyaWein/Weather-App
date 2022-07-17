@@ -3,13 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { StoreContext } from './stores/use-weather-store';
+import { WeatherRootStore } from './stores/weather-root-store';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+const rootStore = new WeatherRootStore();
+
 root.render(
   <React.StrictMode>
-    <App />
+    <StoreContext.Provider value={rootStore}>
+      <App />
+    </StoreContext.Provider>
   </React.StrictMode>
 );
 

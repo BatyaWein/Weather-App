@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using WeatherProjectAPI.DL;
 using WeatherProjectAPI.Entities;
 
 namespace WeatherProjectAPI.DL
@@ -28,7 +26,9 @@ namespace WeatherProjectAPI.DL
             }
             catch (Exception e)
             {
+                //logs
                 Console.WriteLine(e);
+                //throw the current exeption
             }
             return await GetUser(user.Email, user.Password);
         }
@@ -46,6 +46,7 @@ namespace WeatherProjectAPI.DL
             {
                 //logs
                 Console.WriteLine(e);
+                //throw the current exeption
             }
             return user;
         }
@@ -61,6 +62,7 @@ namespace WeatherProjectAPI.DL
             {
                 //logs
                 Console.WriteLine(e);
+                //throw the current exeption
             }
             return user;
         }

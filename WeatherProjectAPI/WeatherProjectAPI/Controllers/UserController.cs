@@ -8,6 +8,8 @@ using WeatherProjectAPI.DTO;
 
 namespace WeatherAPI.Controllers
 {
+    //TO DO
+    //Return correct and accurate statuses
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
@@ -31,6 +33,7 @@ namespace WeatherAPI.Controllers
         [HttpPost]
         public Task<DTO_User> createUser([FromBody] DTO_User user)
         {
+            _logger.LogInformation($"sign-up user with params: {user}");
             return _userBL.createUser(user);
         }
 
@@ -38,6 +41,7 @@ namespace WeatherAPI.Controllers
         [HttpPost]
         public async Task<DTO_User> LoginUser([FromBody] LoginBody body)
         {
+            _logger.LogInformation($"Login attempted with email: {body.email} and password: {body.password}");
             DTO_User user = await _userBL.GetUser(body.email, body.password);
             return user;
         }
@@ -46,6 +50,7 @@ namespace WeatherAPI.Controllers
         [HttpGet]
         public async Task<DTO_User> GetUserById(Guid id)
         {
+            _logger.LogInformation($"Get user with id: {id}");
             return await _userBL.GetUserById(id);
         }
     }

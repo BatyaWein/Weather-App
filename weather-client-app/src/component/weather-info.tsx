@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { observer } from 'mobx-react-lite';
 import { assert } from 'ts-essentials';
 import { css } from '@emotion/css';
@@ -13,6 +13,9 @@ export const WeatherInfo = observer(() => {
     const history = useNavigate();
 
     assert(weatherInfoStore.weatherInfo);
+    useEffect(() => {
+        setIsFavorite(false);
+    }, [locationStore.selectedLocation, setIsFavorite])
 
     return <div className={css`border: 1px solid;
     margin: 30px;
@@ -23,7 +26,7 @@ export const WeatherInfo = observer(() => {
             <div>Add to favorite:
                 <label>
                     <input checked={isFavorite} onChange={() => {
-                        if(isFavorite){
+                        if (isFavorite) {
                             alert('This Location already exists in favorites');
                             return;
                         }
